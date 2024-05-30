@@ -18,4 +18,4 @@ PEPV along with compute_pe_truvada.py and utils_avg_extinction men can be used t
 
 bottom_up.ipynb is an notebook of the steps of the bottom_up approach. For simplicity and lower run time this is done using dosing.csv file and average PK parameters. This p_value testing at the end requires the output of the P_inf.py as well as the output of hypothesis_tester.py in top_down.
 
-MSM contains the pre-computed prophylactic efficacies for 1,000 virtual patients with different pk parameters (found in folder "pk_params"). P_inf.py as well as the output of hypothesis_tester.py in top_down.
+MSM contains the pre-computed prophylactic efficacies for 1,000 virtual patients with different pk parameters (found in folder "pk_data"). P_inf.py as well as the output of hypothesis_tester.py in top_down.
