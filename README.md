@@ -1,6 +1,16 @@
 # Model-based predictions of protective HIV PrEP levels in men who have sex with men
 Master Thesis Systems Biology
 
+There are different guidelines for PrEP (Pre-exposure Prophylaxis) for MSM (Men who have Sex with Men) and cisgender women. However, the clinical trials on which these guidelines are based have some limitations. Therefore, we aim to simulate these clinical trials to address these limitations and incorporate hypotheses aiming to explain adherence-efficacy relationships to determine if the efficacy is affected by any male/female differences. The code and data in this repository were used to answer the following research question and aims:
+
+##### Research Question: Which concentration marker matches/correlates with the efficacy of PrEP in MSM?
+
+To answer this research question, we will apply two independent approaches: a data-driven top-down approach and a mechanistic modelling bottom-up approach. These approaches are split into three aims:
+
+Aim 1: To establish efficacy estimations for each of the trials using a data-driven, top-down approach via clinical trial simulations and compare incidence rates between heterosexual men and MSM.
+Aim 2: To use mechanistic bottom-up modelling that incorporates factors hypothesized to influence efficacy (adherence, exposure site pharmacokinetics, dNTP levels, and exposure route) to simulate clinical trials and test the influence of concentration markers on prophylactic efficacy.
+Aim 3: To use clinical top-down estimations to test the validity of each hypothesis in the bottom-up approach and identify the efficacy marker for MSM.
+
 Code is informed by: https://github.com/KleistLab/PrEP_TruvadaWomen.git
 
 This repository includes the code for recreating the top-down and bottom-up approaches.
